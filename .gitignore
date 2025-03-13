@@ -1,0 +1,9 @@
+# Secrets
+.env
+
+# Python Specifics
+venv/
+__pycache__/
+
+# Large Datafiles
+data/
