@@ -15,7 +15,7 @@ This repository contains tools to analyze facial images and classify them accord
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Terra-Technologies/FiZ-Vision-Modell-Demo
+   git clone git@github.com:Terra-Technologies/FiZ-Vision-Modell-Demo.git
    cd FiZ-Vision-Modell-Demo
    ```
 
