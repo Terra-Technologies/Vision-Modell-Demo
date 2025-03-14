@@ -1,10 +1,10 @@
-# Ayurveda Face Classification
+# Face Classification
 
-A tool for analyzing facial features using AI vision models to match them with Ayurvedic descriptions.
+A tool for analyzing facial features using AI vision models to match them with feature descriptions.
 
 ## Overview
 
-This repository contains tools to analyze facial images and classify them according to Ayurvedic facial feature descriptions. It uses Azure AI Vision models to perform the analysis.
+This repository contains tools to analyze facial images and classify them according to facial feature descriptions. It uses Azure AI Vision models to perform the analysis.
 
 ## Requirements
 
@@ -15,8 +15,8 @@ This repository contains tools to analyze facial images and classify them accord
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:Terra-Technologies/FiZ-Vision-Modell-Demo.git
-   cd FiZ-Vision-Modell-Demo
+   git clone git@github.com:Terra-Technologies/Vision-Modell-Demo.git
+   cd Vision-Modell-Demo
    ```
 
 2. Install dependencies:
@@ -36,14 +36,14 @@ This repository contains tools to analyze facial images and classify them accord
 
 ### Analyzing Facial Features
 
-To analyze a facial image against a set of Ayurvedic descriptions:
+To analyze a facial image against a set of descriptions:
 
 ```bash
 python -m pretrained_vision_model --descriptions path/to/descriptions.txt --image path/to/image.jpg
 ```
 
 Where:
-- `path/to/descriptions.txt` is a text file containing Ayurvedic facial feature descriptions, one per line
+- `path/to/descriptions.txt` is a text file containing facial feature descriptions, one per line
 - `path/to/image.jpg` is the facial image you want to analyze
 
 The tool will output the description that best matches the facial features in the image.
